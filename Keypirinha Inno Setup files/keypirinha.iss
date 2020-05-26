@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Keypirinha"
-#define MyAppVersion "2.24"
+#define MyAppVersion GetStringFileInfo('Keypirinha\keypirinha.exe', 'ProductVersion')
 #define MyAppPublisher "Jean-Charles Lefebvre"
 #define MyAppURL "http://keypirinha.com/"
 #define MyAppExeName "keypirinha.exe"
